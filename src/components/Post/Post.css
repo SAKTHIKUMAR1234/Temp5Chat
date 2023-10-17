@@ -1,0 +1,86 @@
+.Post
+{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+.Post>img{
+    width: 100%;
+    max-height: 20rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.postReact{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+.maincommentpop{
+    height: 500px;
+    width: 50%;
+    justify-content: center;
+    background-color: aquamarine;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    background-color: rgb(251, 251, 251);
+    overflow: scroll;
+}
+.popUpcomment{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+    border-bottom: 2px solid black;
+
+}
+.popCommentHeader{
+    display: flex;
+    gap: 600px;
+    justify-content: space-between;
+}
+.commentinput{
+    width: 87%;
+    font-size: 17px;
+    padding: 20px;
+    margin: 2%;
+    border-radius: 20px;
+    border: none;
+
+}
+.commentPost{
+    border: none;
+    padding: 15px;
+    width: 120px;
+    cursor: pointer;
+    background-color: burlywood;
+    font-size: 20px;
+    color: white;
+    font-size: 1.05rem;
+    border-radius: 10px;
+    border-style: none;
+    position: relative;
+    left: 80%;
+}
+
+.comment-posting{
+    margin-top: 2rem;
+    padding: 10px;
+    height: auto;
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+    width: 80%;
+    margin-left: 5%;
+    background-color: rgb(231, 211, 250);
+    word-break: break-all;
+    border-radius: 10px;
+    border: none;
+}
+
+.comment-scroll{
+    
+    overflow:scroll;
+}
